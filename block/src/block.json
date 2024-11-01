@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "simple-calendar-for-google/scgcalendar-block",
+  "title": "Simple Calendar for Google",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "Lists Google’s public calendars.",
+  "keywords": [
+	"calendar",
+	"google",
+	"lists"
+  ],
+  "version": "1.0.3",
+  "textdomain": "simple-calendar-for-google",
+  "supports": {
+    "customClassName": false,
+    "className": false,
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
